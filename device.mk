@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/skyworthdigitalrt/cupid-p2
+LOCAL_PATH := device/skyworthdigitalrt/cupid

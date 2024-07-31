@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=cupid-p2
+DEVICE=cupid
 VENDOR=skyworthdigitalrt
 
 # Load extract_utils and do some sanity checks

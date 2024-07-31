@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cupid-p2.mk
+    $(LOCAL_DIR)/omni_cupid.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cupid-p2-user \
-    omni_cupid-p2-userdebug \
-    omni_cupid-p2-eng
+    omni_cupid-user \
+    omni_cupid-userdebug \
+    omni_cupid-eng
