@@ -31,14 +31,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_SCREEN_DENSITY := 320
 
 # Kernel
-BOARD_KERNEL_BASE := 0x40078000
-BOARD_KERNEL_CMDLINE := firmware_class.path=/vendor/etc/firmware selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=userdebug
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_RAMDISK_OFFSET := 0x02f88000
-BOARD_KERNEL_TAGS_OFFSET := 0xfff88100
-BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
-BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
-BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := cupid_defconfig
