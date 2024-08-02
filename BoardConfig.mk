@@ -31,7 +31,6 @@ TARGET_NO_BOOTLOADER := true
 TARGET_SCREEN_DENSITY := 320
 
 # Kernel
-BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_CMDLINE := firmware_class.path=/vendor/etc/firmware selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=userdebug
 BOARD_KERNEL_PAGESIZE := 2048
